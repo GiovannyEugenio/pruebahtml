@@ -1,0 +1,72 @@
+.formulariofecha{
+    padding: 100px;
+    float: left;
+
+}
+.banner2{
+    padding-top:50px ;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.texto{
+    color:rgb(31, 60, 141);
+    width: 100%;
+    height: 200px;
+    float:left;
+    font-size: 25px;
+    padding-left:100px ;
+}
+/*Inicio de la creacion de tarjetas*/
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+}
+.card{
+    width: 100%;
+    margin:20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.card .contenido2{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido2 p{
+    line-height: 1.5;
+    font-size: 20px;
+    color: #6a6a6a;
+}
+.card .contenido2 h3{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom:15px ;
+}
+.card .contenido2 a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido2 a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+/* Hasta aqui usamos unas tarjetas*/
