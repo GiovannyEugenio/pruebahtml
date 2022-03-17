@@ -1,0 +1,39 @@
+.contenido {
+    width: 50%;
+    height: 300px;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img1{
+    width: 30%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+.contenido{
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:rgb(31, 60, 141);
+    text-align:left;
+}
+.wrapper{
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.contenido .mayus{
+    font-size: 50px;
+}
+.botonci a {
+    font-size: 20px;
+    padding-right: 40px;
+    text-decoration: none;
+    color:rgb(31, 60, 141);
+}
+
+.botonci a:hover{
+    background: rgb(122, 224, 255);
+    border-radius: 50px;
+}

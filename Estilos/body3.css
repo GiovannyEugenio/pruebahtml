@@ -1,0 +1,44 @@
+.izq img{
+    padding-left: 20px;
+    width: 40%;
+    height:700px;
+    float: left;
+}
+.der {
+    width: 60%;
+    height: 700px;
+    float: left;
+}
+.textoo {
+    padding-left: 100px;
+    color:rgb(31, 60, 141);
+}
+.der ul{
+    list-style-type: none;
+    padding-left: 80px;
+}
+
+.card2{
+    color:rgb(31, 60, 141);
+    padding-top: 10px;
+    width: 62%;
+    height: 100px;
+    margin:20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card2 p{
+    color:gray;
+}
+.card2:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card2 img{
+    width: 40px;
+    height: 40px;
+}
